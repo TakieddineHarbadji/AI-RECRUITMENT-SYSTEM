@@ -1,0 +1,28 @@
+Notes: 'User = Candidate' in all cases
+	Tables Names and join_table Names, must be named like they are in supabase when querying.
+------
+
+1- There are two types of links:
+- Basic Handeling:
+which take a table and CRUD operations on it based on an id(related to that table only so no foreign keys).
+
+/get_all/{table_name} (gets all instaces in any table)
+/get_batch/{table_name}/{start_index}/{batch_size} (gets based on batch size and start_index (from 0))
+/get/{table_name}/?record_id=1&record_id=133 (can be used to)
+
+same for others.
+
+- Foreign Handeling:
+devided into two one for one to many relations, and one for many to many relations.
+
+the first "/get_by_foreign/{parent_table}/{parent_id}/{child_table}"
+takes a parent table which has the id (only Users and Companies tables)
+and gives all related instances in the child table.
+has a batch version.
+
+the second "/get_by_foreign_many_many/{parent_table}/{parent_id}/{join_table}/{child_table}"
+gives all(or some) related child instances to the parent_id.
+ (can give specific IDs from child_table too like this:
+'/get_by_foreign_many_many/Users/1/Users_Companies/Companies?target_id=1&target_id=133'
+)
+has batch version.

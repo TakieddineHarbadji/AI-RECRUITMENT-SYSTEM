@@ -1,0 +1,18 @@
+  -to get:
+localhost/pre_link/type/id
+  -to upload:
+/pre_link/type/id/upload
+  -to delete:
+/pre_link/type/id/delete/doc_num
+
+--------
+
+-pre_links are: [Users, Companies]
+
+- type (depends on pre_link) is in:
+(for pre_link = Users): [CVs, Images]
+(for pre_link = Companies): [Images]
+
+- id is the users' (or company's id)
+
+-doc_num is in [0,1,2,....] (default is 0)(and the image is accessed by index not by number)

@@ -1,0 +1,15 @@
+.bg-right-side {
+  background-image:
+    url('assets/recruitment-background.jpg'),
+    linear-gradient(to top, #041a3c, #041a3c86); /* gradient under the squares */
+  background-blend-mode: overlay; /* overlay squares on gradient */
+  background-size: cover,cover;
+  clip-path: polygon(
+    0% 100%,   /* bottom-left corner */
+    100% -900%,    /* 10% from top on the left */
+    100% 100%,   /* top-right */
+    100% 100%  /* bottom-right */
+  );
+   
+  padding-bottom: 10rem;
+}
