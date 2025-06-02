@@ -8,6 +8,7 @@ import Account from './Settings_account.jsx'
 
 import Navbar from "../Components/NavBar";
 import Header from "../Components/Header";
+import axios from 'axios';
 
 import { useState } from "react"
 import {
@@ -23,6 +24,7 @@ import {
   Settings,
   User,
 } from "lucide-react"
+
 
 // In a real project, you would import your UI components from your component library
 // For simplicity, I'm using basic HTML elements styled with Tailwind CSS
@@ -69,7 +71,7 @@ function Dashboard() {
                   />
                 </svg>
               </div>
-              <span className="text-xl font-bold text-[#18191c]">MyJob</span>
+              <span className="text-xl font-bold text-[#18191c]">AIRESY</span>
             </div>
           </div>
 
@@ -213,7 +215,7 @@ function Dashboard() {
 
       {/* Footer */}
       <footer className="border-t border-[#e4e5e8] py-4 text-center text-[#9199a3] text-sm">
-        © 2024 MyJob - Job Portal. All rights Reserved
+        © 2024 AIRESY - Job Portal. All rights Reserved
       </footer>
     </div>
   )

@@ -63,7 +63,7 @@ export default function MainHeader() {
                 <rect width="24" height="24" rx="4" fill="#1D4ED8" />
                 <path d="M7 12H17M7 8H17M7 16H13" stroke="white" strokeWidth="2" strokeLinecap="round" />
               </svg>
-              <span className="font-bold text-xl">MyJob</span>
+              <span className="font-bold text-xl">AIRESY</span>
             </Link>
 
             <div className="flex items-center text-sm">
@@ -173,7 +173,7 @@ export default function MainHeader() {
             className="text-[#0a65cc]"
           />
         </div>
-        <span className="text-xl font-bold">MyJob</span>
+        <span className="text-xl font-bold">AIRESY</span>
       </div>
       <div className="flex items-center bg-[#f1f2f4] rounded-md px-2 py-1 mr-4">
         <div className="flex items-center">

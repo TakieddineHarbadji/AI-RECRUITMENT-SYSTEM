@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Footer from '../components/footer';
-import QNA from '../components/qna-contact';
+import Footer from '../Components/footer';
+import QNA from '../Components/qna-contact';
 
 function ContactQNAPage() {
 

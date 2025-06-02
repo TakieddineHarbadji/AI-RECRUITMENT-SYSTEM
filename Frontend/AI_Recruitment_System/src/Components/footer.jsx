@@ -16,7 +16,7 @@ export default function Footer() {
                   <path d="M20 6h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-8-2h4v2h-4V4zM4 8h16v3H4V8zm0 5h16v7H4v-7z" />
                 </svg>
               </div>
-              <h2 className="logo-text">MyJob</h2>
+              <h2 className="logo-text">AIRESY</h2>
             </div>
             <div className="contact-info">
               <div className="phone-container">
@@ -82,7 +82,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="footer-bottom">
           <p className="copyright">
-            © {year} MyJob - Job Portal. All Rights Reserved
+            © {year} AIRESY - Job Portal. All Rights Reserved
           </p>
           <div className="social-icons">
             <a href="#">

@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Footer from '../components/footer';
-import Blog from '../components/blog';
+import Footer from '../Components/footer';
+import Blog from '../Components/blog';
 
 function BlogPage() {
 

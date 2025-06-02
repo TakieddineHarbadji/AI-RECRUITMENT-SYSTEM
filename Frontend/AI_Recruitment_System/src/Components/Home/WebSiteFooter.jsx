@@ -11,7 +11,7 @@ export default function WebSiteFooter() {
       <div className="lg:col-span-2">
         <div className="flex items-center gap-2 mb-4">
           <Briefcase className="text-white" />
-          <span className="text-xl font-bold">MyJob</span>
+          <span className="text-xl font-bold">AIRESY</span>
         </div>
         <p className="mb-2">Call now: (319) 555-0115</p>
         <p className="text-[#9199a3] text-sm">
@@ -62,7 +62,7 @@ export default function WebSiteFooter() {
 
     {/* Copyright */}
     <div className="border-t border-[#464d61] pt-6 flex flex-col md:flex-row justify-between items-center">
-      <p className="text-[#9199a3] text-sm mb-4 md:mb-0">© 2024 MyJob - Job Portal. All rights Reserved</p>
+      <p className="text-[#9199a3] text-sm mb-4 md:mb-0">© 2024 AIRESY - Job Portal. All rights Reserved</p>
       <div className="flex gap-4">
         <FooterLink href="#" aria-label="Facebook">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

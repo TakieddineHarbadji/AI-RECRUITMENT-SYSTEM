@@ -30,7 +30,7 @@ import PostPage from './pages/postPage';
 import ContactQNAPage from './pages/contact-qnaPage';
 import ContactPage from './pages/contactPage';
 import NotFound from './pages/notFound';
-import TermsAndConditions from './components/terms';
+import TermsAndConditions from './Components/terms';
 import UnderConstructionPage from './pages/underConstraction';
 import BlogPage from './pages/blogPage';
 import { useContext } from 'react';

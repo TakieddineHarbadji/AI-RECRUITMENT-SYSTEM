@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Footer from '../components/footer';
-import ErrorPage from '../components/pageNotFound';
+import Footer from '../Components/footer';
+import ErrorPage from '../Components/pageNotFound';
 
 function NotFound() {
 

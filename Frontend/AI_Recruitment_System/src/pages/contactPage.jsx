@@ -1,5 +1,5 @@
-import FooterContact from '../components/footer-contact';
-import Contact from '../components/contact';
+import FooterContact from '../Components/footer-contact';
+import Contact from '../Components/contact';
 
 function ContactPage() {
 

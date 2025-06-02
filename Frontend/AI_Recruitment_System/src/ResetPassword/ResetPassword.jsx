@@ -12,7 +12,7 @@ export default function ResetPassword() {
       <div className="mt-10 mb-16">
         <Link href="/" className="flex items-center gap-2 text-[#0a65cc] font-semibold">
           <Briefcase className="h-5 w-5" />
-          <span className="text-xl">MyJob</span>
+          <span className="text-xl">AIRESY</span>
         </Link>
       </div>
 

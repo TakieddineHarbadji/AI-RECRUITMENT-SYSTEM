@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Footer from '../components/footer';
-import TermsAndConditions from '../components/terms';
+import Footer from '../Components/footer';
+import TermsAndConditions from '../Components/terms';
 
 function TermsAndConditionsPage() {
 

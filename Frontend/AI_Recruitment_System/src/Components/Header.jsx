@@ -1,5 +1,5 @@
 import { Search,ChevronDown } from 'lucide-react';
-import IconImage from '../assets/icon.PNG';
+import IconImage from '../assets/icon.png';
 
 export default function Header() {
   return (
@@ -16,7 +16,7 @@ export default function Header() {
                 className="w-10 h-10 bg-[#ffffff] flex items-center justify-center rounded-md object-contain"
             />
 
-          <span className="text-xl font-bold text-[#18191c]">MyJob</span>
+          <span className="text-xl font-bold text-[#18191c]">AIRESY</span>
         </div>
         {/* Bottom Part: Combined Location + Search */}
         <div className="flex w-full items-center border border-[#e4e5e8] rounded-md overflow-hidden sm:w-full lg:w-[500px]">

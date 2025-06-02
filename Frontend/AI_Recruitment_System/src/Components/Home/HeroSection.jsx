@@ -1,4 +1,4 @@
-import BackgroundImage from 'assets/Background.PNG';
+import BackgroundImage from 'assets/Background.png';
 import {  Search, MapPin } from "lucide-react";
 
 export default function HeroSection() {

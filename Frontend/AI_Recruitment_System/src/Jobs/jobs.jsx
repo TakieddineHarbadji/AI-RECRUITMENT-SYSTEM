@@ -48,7 +48,7 @@ export default function Jobs() {
                         />
                       </svg>
                     </div>
-                    <span className="text-xl font-bold text-[#18191c]">MyJob</span>
+                    <span className="text-xl font-bold text-[#18191c]">AIRESY</span>
                   </div>
                 </div>
       
@@ -371,7 +371,7 @@ export default function Jobs() {
           </div>
 
           {/* Footer */}
-          <div className="mt-12 text-center text-sm text-[#9199a3]">© 2024 MyJob - Job Portal. All rights Reserved</div>
+          <div className="mt-12 text-center text-sm text-[#9199a3]">© 2024 AIRESY - Job Portal. All rights Reserved</div>
         </div>
       </div>
     </div>

@@ -20,7 +20,7 @@ export default function UnderConstructionPage() {
       <header className="header">
         <div className="logo">
           <img src={miniLogo} alt="mini logo" />
-          <span className="logo-text">MyJob</span>
+          <span className="logo-text">AIRESY</span>
         </div>
       </header>
       
@@ -96,7 +96,7 @@ export default function UnderConstructionPage() {
           </div>
           
           <div className="copyright">
-            <p>© {currentYear} MyJob - Job Portal. All Rights Reserved.</p>
+            <p>© {currentYear} AIRESY - Job Portal. All Rights Reserved.</p>
           </div>
         </div>
       </footer>

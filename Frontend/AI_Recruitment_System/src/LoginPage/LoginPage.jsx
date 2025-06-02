@@ -42,7 +42,7 @@ export default function LoginPage() {
           <div className="mb-16 ">
             <a href="/Home" className="flex items-center gap-2 text-[#0a65cc] font-bold text-xl">
               <Briefcase className="h-6 w-6" />
-              <span>MyJob</span>
+              <span>AIRESY</span>
             </a>
           </div>
               {error && <p className="text-[#eb3333] mb-8">{error}</p>}

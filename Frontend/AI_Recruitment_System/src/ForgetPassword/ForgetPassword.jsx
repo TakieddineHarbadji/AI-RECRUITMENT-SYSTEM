@@ -11,7 +11,7 @@ export default function ForgetPassword() {
             <div className="mb-16">
                 <Link href="/" className="flex items-center gap-2 text-[#0a65cc] font-semibold text-xl">
                     <Briefcase className="h-5 w-5" />
-                    <span>MyJob</span>
+                    <span>AIRESY</span>
                 </Link>
             </div>
 

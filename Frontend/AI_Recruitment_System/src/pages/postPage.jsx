@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import Footer from '../components/footer';
-import SingleBlog from '../components/singleBlog/blogSingle';
-import CommentsSection from '../components/singleBlog/comments/comments.jsx';
-import RelatedBlog from '../components/singleBlog/relatedBlogs.jsx';
+import Footer from '../Components/footer';
+import SingleBlog from '../Components/singleBlog/blogSingle';
+import CommentsSection from '../Components/singleBlog/comments/comments.jsx';
+import RelatedBlog from '../Components/singleBlog/relatedBlogs.jsx';
 
 function PostPage() {
 

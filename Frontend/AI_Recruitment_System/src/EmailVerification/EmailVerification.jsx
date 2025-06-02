@@ -9,7 +9,7 @@ export default function EmailVerification() {
         <div className="flex justify-center mb-16">
           <div className="flex items-center gap-2">
             <Briefcase className="w-6 h-6 text-[#0a65cc]" />
-            <span className="text-xl font-semibold text-[#18191c]">MyJob</span>
+            <span className="text-xl font-semibold text-[#18191c]">AIRESY</span>
           </div>
         </div>
         

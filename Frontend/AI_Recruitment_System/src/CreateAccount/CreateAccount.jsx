@@ -58,7 +58,7 @@ export default function CreateAccount() {
           <div className="mb-12">
             <Link to="/" className="flex items-center gap-2 text-[#0a65cc]">
               <Briefcase className="h-6 w-6" />
-              <span className="text-xl font-semibold">MyJob</span>
+              <span className="text-xl font-semibold">AIRESY</span>
             </Link>
           </div>
 
